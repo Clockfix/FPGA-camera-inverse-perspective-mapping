@@ -68,7 +68,7 @@ module top #( parameter
     output [3:0]    vgaGreen,
     output          Hsync,
     output          Vsync,
-    input [2:0]     sw,
+    input [3:0]     sw,
     input [8:0]     im_p,
     //UART 
     input           RsRx,         // UART RX Data
@@ -158,6 +158,8 @@ module top #( parameter
   wire [6:0]              w_addr_com_wr_reg ;
   wire [24:0]             w_data_com_reg ;
   wire                    w_we_com_reg ;
+
+  wire [8:0]              w_im_p;
 
 //-----sub modules--------------------------
 clock_enable_param #(
@@ -321,7 +323,7 @@ imag_procesor #(
     .CAM_LINE(CAM_LINE),
     .CAM_PIXEL(CAM_PIXEL)
 ) imag_procesor(
-    .im_p(im_p),
+    .im_p(w_im_p),
     .clk(clk),
     .clk25(pixel_clk),
     .clk50(clk50),
@@ -377,6 +379,14 @@ debounce_switch debounce_switch_reset(
     .clk(clk),
     .i_switch(btnU),
     .o_switch(w_reset_default)
+);
+
+mode_selector mode_selector(
+    .clk(clk),
+ //   .i_enable(w_enable),
+    .i_im_p(im_p),
+    .autoselect(sw[3]),
+    .o_im_p(w_im_p)
 );
 
 
