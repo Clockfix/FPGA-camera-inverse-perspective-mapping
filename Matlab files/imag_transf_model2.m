@@ -45,8 +45,6 @@ mode = str2num(answer{4});
     mode = min(mode, 3);
     mode = max(mode, 0);
 %
-step = 0.001;       % step for lookuptable file generator loop
-%
 %% reading image
 %  f = imread('star640x480.jpg');
 f = imread('overlay.jpg');
@@ -186,6 +184,8 @@ text( 0 , 0 , [ X,' ', Y] );
                 end
             end
 %        % Displaying transform matrix in Verilog code style, for easy copying and pasting
+%
+% step = 0.001;       % step for lookuptable file generator loop
 %             disp('Copy those constants in Verilog code'),
 %             X = ['TRA_IMG_WIDTH   = ''d', num2str(width),','];  
 %             disp(X),
@@ -270,6 +270,7 @@ text( 0 , 0 , [ X,' ', Y] );
                     param = ufi(a+1,4,0);
                     temp = ufi(bin2dec([param.bin , sw.bin , cam.bin]),7,0);
                     X = ['P', temp.hex, Thex(a,1:7)];
+%                     X = ['h',Thex(a,1:7)];  % print just values of matrix
                     disp(X),
                 end
             end
