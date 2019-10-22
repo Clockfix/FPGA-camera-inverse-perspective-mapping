@@ -30,4 +30,5 @@ After uploading the configuration to FPGA board in the corner of the monitor, Yo
 ![Basys3](https://rasv7w.bl.files.1drv.com/y4mAoPcNULZ7KFfe_9pM95q_px_RCpv7YOZgSKTsRCfEHDp7D5BJCBOtnA4oFRZeKr1pWHlaKprguELQ0_67uPMYZx_AHpcq91-0I5LENw4HEBAArny1z7W22VLienP15ZhxIFNKmf3EvNJn5ZzhXBZQ2Hqa8V58lyD2NNRn4FQw29xDjhehsM_ZfiMMosfaE1tUvCwPGgEJC9fkK7RUSApIw/pmod-pinout.png?psid=1)
 ![pinout](https://fgkm1w.bl.files.1drv.com/y4mYvu2r_T4Mv91oiLmIPjggQrIXIDWy5FKZhU09sKQ3F8gNJO5FsMyYJ_KKzjZIg7xod5W9ru7YzTrMn8ib5QkbafE3yVFfL-AR0MUKOkgFc2e8nMGdDohYi3JcvHDohoXyIHHvXdYH4XdBnXwQ-a1uEH1E2nRVFMfS2Q9Z5Bms4Dw1IhHRer-cfWyyPkzUdHJn_RxtHmQJFUhwayYYR5bGg/ov7670-pinout.png?psid=1)
 
-
+# Full paper(in Latvian) can be found here:
+https://www.overleaf.com/read/bjbpxsysfyvt
