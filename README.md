@@ -2,6 +2,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/clockfix/FPGA-camera-inverse-perspective-mapping?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/clockfix/FPGA-camera-inverse-perspective-mapping?style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/clockfix/FPGA-camera-inverse-perspective-mapping?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/clockfix/FPGA-camera-inverse-perspective-mapping?style=plastic)
 
 # **FPGA camera inverse perspective mapping (Bird's-eye view)**
 Using two **OV7670** cameras and *Digilent Basys3* board with *Xilinx Artix 7* series **FPGA** performing inverse perspective image mapping and displays result on **VGA** monitor.
