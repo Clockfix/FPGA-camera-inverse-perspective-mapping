@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/clockfix/FPGA-camera-inverse-perspective-mapping?style=plastic) 
+![GitHub](https://img.shields.io/github/license/clockfix/FPGA-camera-inverse-perspective-mapping?style=plastic)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/clockfix/FPGA-camera-inverse-perspective-mapping?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/clockfix/FPGA-camera-inverse-perspective-mapping?style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/clockfix/FPGA-camera-inverse-perspective-mapping?style=plastic)
